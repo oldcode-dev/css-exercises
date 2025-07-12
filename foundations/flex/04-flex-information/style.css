@@ -24,3 +24,44 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* My solution */
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.container {
+  /* border: 1px solid red; */
+  /* width: 200px; */
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0 52px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 16px;
+
+}
